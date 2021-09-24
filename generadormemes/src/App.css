@@ -1,0 +1,21 @@
+.meme span{
+
+  position: absolute;
+
+  color: white;
+  font-size: 50px;
+  margin-top: 600px;
+  margin-left: 392px;
+}
+
+.meme span:nth-child(1){
+  margin-top: 77px;
+  margin-left: 33%;
+ 
+}
+
+.meme img{
+
+  width: 100%;
+
+}
