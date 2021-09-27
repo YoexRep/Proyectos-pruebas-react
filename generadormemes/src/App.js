@@ -2,6 +2,8 @@
 import html2canvas from 'html2canvas';
 import { useState } from 'react';
 import './App.css';
+import ContenedorPrincipal from './componentes/ContenedorPrincipal';
+import ElementoFuera from './componentes/ElementoFuera';
 
 
 
@@ -63,6 +65,7 @@ function App() {
 
     <div>
 
+
          <h1>Generador de memes</h1>
 
          <input onChange={ onChangeLinea1} placeholder="Aqui va la linea 1" type="text"></input> 
@@ -85,9 +88,10 @@ function App() {
           <img src={imagen}></img>
           </div>
           
-
+          <ContenedorPrincipal></ContenedorPrincipal>
 
        
+          <ElementoFuera></ElementoFuera>
 
     </div>
       
